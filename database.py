@@ -5,6 +5,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 __all__ = [
     'create_seen_users_table',
     'insert_seen_user_data',
+    'select_seen_user'
 ]
 
 
